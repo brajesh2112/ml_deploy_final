@@ -5,11 +5,11 @@ from datetime import datetime
 import time
 
 # Load trained logistic regression model
-model = joblib.load(r"D:\N Cloud\OneDrive\M.Sc Data Science\Sem 2\Project\Student  Depression\logreg_model.pkl")
+model = joblib.load("logreg_model.pkl")
 
 # Load encoders used during preprocessing
-label_encoders = joblib.load(r"D:\N Cloud\OneDrive\M.Sc Data Science\Sem 2\Project\Student  Depression\label_encoders.pkl")
-onehot_encoders = joblib.load(r"D:\N Cloud\OneDrive\M.Sc Data Science\Sem 2\Project\Student  Depression\onehot_encoders.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
+onehot_encoders = joblib.load("onehot_encoders.pkl")
 
 # Categorical and numerical features
 categorical_features = ['Gender', 'City', 'Profession', 'Degree', 'Sleep Duration',
