@@ -2,5 +2,5 @@
 
 Deployment file - main.py 
 
-python notebook for preprocessing, EDA, Future Engineering, Model Development, Model Evaluation.
+It for deploy it in Azure app Services
 
