@@ -52,7 +52,7 @@ st.set_page_config(page_title="Student Depression Prediction", layout="wide")#wi
 st.image("https://www.shutterstock.com/image-vector/kids-stress-depression-concept-depressed-600nw-2071989683.jpg", use_container_width=True)
 st.markdown("""
     <h1 style='text-align: center; color: #FF4B4B; font-size: 36px;'>
-        🎓 Student Depression Prediction 🤍🔥🎉🥳
+        🎓 Student Depression Prediction 
     </h1>
     <p style='text-align: center; font-size: 20px;'>
         Enter your details below to get a mental health prediction using machine learning.
@@ -135,6 +135,7 @@ st.markdown(f"👀 **Page Views this session:** {st.session_state.count}")
 # Footer
 st.markdown("---")
 st.markdown("💙 *Created with care to promote mental wellness among students.*")
+
 
 
 
