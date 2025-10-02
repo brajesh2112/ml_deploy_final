@@ -46,7 +46,7 @@ def predict_depression(input_data):
 
 # Streamlit UI
 # Set page config
-st.set_page_config(page_title="Student Depression Prediction", layout="wide")#wide/centered
+st.set_page_config(page_title="Student Depression ", layout="wide")#wide/centered
 
 # Main Header
 st.image("https://www.shutterstock.com/image-vector/kids-stress-depression-concept-depressed-600nw-2071989683.jpg", use_container_width=True)
@@ -135,6 +135,7 @@ st.markdown(f"👀 **Page Views this session:** {st.session_state.count}")
 # Footer
 st.markdown("---")
 st.markdown("💙 *Created with care to promote mental wellness among students.*")
+
 
 
 
